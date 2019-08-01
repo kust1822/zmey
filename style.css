@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 100px;
+}
+.field {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background: #ccc;
+    position: relative;
+}
+.excel {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+.snakeBody {
+    background: url("img/snake-body.jpg");
+    background-size: cover;
+    border-radius: 40%;
+}
+.head {
+    background: url("img/snake-head.png");
+    background-size: cover;
+    border-radius: 10%; 
+}
+.mouse {
+    background: url("img/mouse.png");
+    background-size: cover;
+}
+.play {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    border-radius: 5px;
+    background: #0092cb;
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.play:hover {
+    background: #016992;
+}
+.play-block {
+    display: block;
+}
